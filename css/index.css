@@ -1,0 +1,113 @@
+html {
+    background-color: #000000;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 50px solid #000000;
+    background-color: #000000;
+}
+
+.logo {
+    display: inline;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display:block;
+    color:#707070;
+    text-align:end;
+    padding:14px 50px;
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: ofelia-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+li a:hover {
+    color: rgb(4, 239, 247);
+}
+
+p {
+    color: #ebe7e7;
+    background-color: rgba(0, 0, 0, 0);
+    width: 700px;
+    border: none;
+    padding: 50px;
+    margin: 20px;
+    font-size: 18pt;
+    font-family: ofelia-text, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Container holding the image and the text */
+.hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  
+.herotext {
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+}
+
+.mywork {
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-family: ofelia-text, sans-serif
+}
+
+h3 {
+    color: #ebe7e7;
+    font-family: ofelia-text, sans-serif;
+    font-size: 20pt;
+}
+
+h6 {
+    color:#707070;
+    font-family: ofelia-text, sans-serif;
+    font-size: 12pt;
+    padding-top: 1px;
+}
+
+.AdoptLeft {
+    float: left;
+}
+
+.AdoptRight {
+    float: right;
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 600px;
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    color: #ebe7e7;
+    margin-top: 1000px;
+    justify-content: center;
+}
+
+.CaseRight {
+    Float: Right;
+}
+
+.CaseLeft {
+    Float: Left;
+}
